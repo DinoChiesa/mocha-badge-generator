@@ -7,6 +7,18 @@
 
 [![https://nodei.co/npm/mocha-badge-generator.png?downloads=true&downloadRank=true&stars=true](https://nodei.co/npm/mocha-badge-generator.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/mocha-badge-generator)
 
+## @dpc/mocha-badge-generator
+
+This is a patched version of mocha-badge-generator that fixes up the dependency on `es6-template-strings`.
+Without this fix, running mbg will result in a "module not found" error.
+
+This version of mbg also changes the badge-up dependency from
+[badge-up](https://www.npmjs.com/package/badge-up) to
+[@rpl/badge-up](https://www.npmjs.com/package/@rpl/badge-up), which fixes some
+vulnerabilities in the Yahoo-owned module.
+
+## Summary
+
 No need for 3rd party to generate badge for your tests. You can generate it locally by running your test script.
 
 Mocha Badge Generator is a [Mocha](https://mochajs.org/) reporter which outputs a badge (SVG or PNG file) with the number of tests passed and failed which you can embed in your readme file.

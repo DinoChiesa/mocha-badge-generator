@@ -1,6 +1,6 @@
 {
-    "name": "mocha-badge-generator",
-    "version": "0.9.0",
+    "name": "@dpc/mocha-badge-generator",
+    "version": "0.9.1",
     "description": "Mocha reporter which outputs badge with the number of tests passed and failed.",
     "main": "src/index.js",
     "bin": {
@@ -27,7 +27,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/ianpogi5/mocha-badge-generator.git"
+        "url": "https://github.com/DinoChiesa/mocha-badge-generator.git"
     },
     "keywords": [
         "mocha",
@@ -38,16 +38,17 @@
     ],
     "author": "Ian Dela Cruz <iandc76@gmail.com>",
     "contributors": [
-        "Brett Zamir"
+      "Brett Zamir",
+      "Dino Chiesa <dchiesa@google.com>"
     ],
     "engines": {
         "node": ">=7.6.0"
     },
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/ianpogi5/mocha-badge-generator/issues"
+        "url": "https://github.com/DinoChiesa/mocha-badge-generator/issues"
     },
-    "homepage": "https://github.com/ianpogi5/mocha-badge-generator",
+    "homepage": "https://github.com/DinoChiesa/mocha-badge-generator",
     "dependencies": {
         "badge-up": "https://registry.npmjs.org/@rpl/badge-up/-/badge-up-3.0.0.tgz",
         "command-line-basics": "^0.8.0",

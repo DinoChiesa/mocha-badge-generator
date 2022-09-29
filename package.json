@@ -1,6 +1,6 @@
 {
-    "name": "@dpc/mocha-badge-generator",
-    "version": "0.9.1",
+    "name": "@dchiesa/mocha-badge-generator",
+    "version": "0.9.0",
     "description": "Mocha reporter which outputs badge with the number of tests passed and failed.",
     "main": "src/index.js",
     "bin": {
@@ -36,10 +36,10 @@
         "shield",
         "svg"
     ],
-    "author": "Ian Dela Cruz <iandc76@gmail.com>",
+    "author": "Dino Chiesa <dchiesa@google.com>",
     "contributors": [
-      "Brett Zamir",
-      "Dino Chiesa <dchiesa@google.com>"
+      "Ian Dela Cruz <iandc76@gmail.com>",
+      "Brett Zamir"
     ],
     "engines": {
         "node": ">=7.6.0"
@@ -62,6 +62,9 @@
         "mocha": "^10.0.0",
         "nyc": "^15.1.0",
         "svg2png": "^4.1.1"
+    },
+    "publishConfig" : {
+      "access" : "public"
     },
     "prettier": {
         "printWidth": 80,
